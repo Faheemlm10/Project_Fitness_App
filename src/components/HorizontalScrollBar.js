@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 const HorizontalScrollBar = ({ data }) => {
   return (
     <div>
+      {console.log(data)}
       {data.map((item) => (
         <Box
           key={item.id || item}
@@ -14,7 +15,7 @@ const HorizontalScrollBar = ({ data }) => {
           {item}
         </Box>
       ))}
-   {console.log(data)}
+   gbnm
     </div>
   );
 };
